@@ -23,13 +23,13 @@
     <artifactId>kuali-common</artifactId>
     <version>4.0.2</version>
   </parent>
-  <groupId>org.kuali.rice</groupId>
-  <artifactId>rice</artifactId>
-  <version>0.0.1-git-SNAPSHOT</version>
+  <groupId>org.kuali.common</groupId>
+  <artifactId>spoon-knife</artifactId>
+  <version>4.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Spoon Knife</name>
   <description>Spoon Knife</description>
-  <url>http://${kuali.site.hostname}/rice/${project.artifactId}/${project.version}</url>
+  <url>http://${kuali.site.hostname}/spoon-knife/${project.version}</url>
   <inceptionYear>2014</inceptionYear>
   <scm>
     <connection>scm:${project.scm.vendor}:git@github.com:jcaddel/Spoon-Knife.git</connection>
