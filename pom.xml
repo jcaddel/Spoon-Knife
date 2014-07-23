@@ -48,7 +48,6 @@
     <project.scm.vendor>git</project.scm.vendor>
     <project.scm.branch>master</project.scm.branch>
     <kuali.release.arguments>-DskipTests</kuali.release.arguments>
-    <kuali.prepare.goals>clean</kuali.prepare.goals>
     <kuali.release.goals>deploy</kuali.release.goals>
   </properties>
 </project>
