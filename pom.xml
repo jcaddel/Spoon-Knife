@@ -25,7 +25,7 @@
   </parent>
   <groupId>org.kuali.common</groupId>
   <artifactId>spoon-knife</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.4</version>
   <name>Spoon Knife</name>
   <description>Spoon Knife</description>
   <url>http://${kuali.site.hostname}/common/${project.artifactId}/${project.version}</url>
@@ -34,7 +34,7 @@
     <connection>scm:${project.scm.vendor}:git@github.com:jcaddel/Spoon-Knife.git</connection>
     <developerConnection>scm:${project.scm.vendor}:git@github.com:jcaddel/Spoon-Knife.git</developerConnection>
     <url>https://github.com/jcaddel/Spoon-Knife/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>spoon-knife-1.0.4</tag>
   </scm>
   <developers>
     <developer>
