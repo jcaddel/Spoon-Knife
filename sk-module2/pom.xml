@@ -23,7 +23,7 @@
     <artifactId>spoon-knife</artifactId>
     <version>4.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>spoon-knife-module2</artifactId>
+  <artifactId>sk-module2</artifactId>
   <name>Spoon Knife Module 2</name>
   <description>Spoon Knife Module 2</description>
 </project>
