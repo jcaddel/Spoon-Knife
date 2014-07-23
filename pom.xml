@@ -45,6 +45,10 @@
       <email>jcaddel@kuali.org</email>
     </developer>
   </developers>
+  <modules>
+    <module>spoon-knife-module1</module>
+    <module>spoon-knife-module2</module>
+  </modules>
   <properties>
     <plugin.release.version>2.5</plugin.release.version>
     <kuali-maven.version>1.1.5-SNAPSHOT</kuali-maven.version>
