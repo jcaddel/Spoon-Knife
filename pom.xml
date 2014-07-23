@@ -33,7 +33,7 @@
   <scm>
     <connection>scm:${project.scm.vendor}:git@github.com:jcaddel/Spoon-Knife.git</connection>
     <developerConnection>scm:${project.scm.vendor}:git@github.com:jcaddel/Spoon-Knife.git</developerConnection>
-    <url>https://github.com/jcaddel/Spoon-Knife/tree/master</url>
+    <url>https://github.com/jcaddel/Spoon-Knife/tree/${project.scm.branch}</url>
     <tag>HEAD</tag>
   </scm>
   <developers>
