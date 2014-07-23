@@ -23,8 +23,8 @@
     <artifactId>kuali-common</artifactId>
     <version>4.0.2</version>
   </parent>
-  <groupId>org.kuali.sk</groupId>
-  <artifactId>sk</artifactId>
+  <groupId>org.kuali.common</groupId>
+  <artifactId>spoon-knife</artifactId>
   <version>3.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Spoon Knife</name>
