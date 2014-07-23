@@ -21,7 +21,7 @@
   <parent>
     <groupId>org.kuali.common</groupId>
     <artifactId>spoon-knife</artifactId>
-    <version>1.0.10-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
   </parent>
   <artifactId>spoon-knife-module1</artifactId>
   <name>Spoon Knife Module 1</name>
