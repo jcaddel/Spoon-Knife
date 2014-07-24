@@ -48,7 +48,7 @@
   </developers>
   <modules>
     <module>sk-module1</module>
-    <module>sk-module2</module>
+    <module>module2</module>
   </modules>
   <properties>
     <plugin.release.version>2.5</plugin.release.version>
