@@ -62,7 +62,18 @@
   </properties>
   <profiles>
     <profile>
+      <id>kuali-release</id>
+      <properties>
+        <project.augment.phase>validate</project.augment.phase>
+        <maven.scm.update>true</maven.scm.update>
+      </properties>
+    </profile>
+    <profile>
       <id>scmrepo</id>
+      <properties>
+        <project.augment.phase>validate</project.augment.phase>
+        <maven.scm.update>true</maven.scm.update>
+      </properties>
       <build>
         <plugins>
           <plugin>
