@@ -51,8 +51,8 @@
     <module>module2</module>
   </modules>
   <properties>
-    <kuali-core.version>1.0.3-SNAPSHOT</kuali-core.version>
     <kuali-util.version>4.4.13-SNAPSHOT</kuali-util.version>
+    <kuali-core.version>1.0.3-SNAPSHOT</kuali-core.version>
     <kuali-maven.version>1.1.6-SNAPSHOT</kuali-maven.version>
   </properties>
   <build>
