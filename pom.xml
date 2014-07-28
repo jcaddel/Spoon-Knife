@@ -32,11 +32,12 @@
   <url>http://${kuali.site.hostname}/common/spoon-knife/${project.version}</url>
   <inceptionYear>2014</inceptionYear>
   <scm>
-    <connection>scm:git:git@github.com:jcaddel/Spoon-Knife.git</connection>
     <developerConnection>scm:git:git@github.com:jcaddel/Spoon-Knife.git</developerConnection>
-    <url>https://github.com/jcaddel/Spoon-Knife/tree/${project.scm.tag}</url>
+    <connection>scm:git:git@github.com:jcaddel/Spoon-Knife.git</connection>
+    <url>https://github.com/jcaddel/Spoon-Knife/tree/master</url>
     <tag>master</tag>
   </scm>
+
   <developers>
     <developer>
       <id>jcaddel</id>
@@ -52,6 +53,7 @@
   </modules>
   <properties>
     <kuali-core.version>1.0.3-SNAPSHOT</kuali-core.version>
+    <kuali-util.version>4.4.13-SNAPSHOT</kuali-util.version>
     <kuali-maven.version>1.1.6-SNAPSHOT</kuali-maven.version>
   </properties>
   <build>
