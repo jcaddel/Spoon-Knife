@@ -37,7 +37,6 @@
     <url>https://github.com/jcaddel/Spoon-Knife/tree/${project.scm.tag}</url>
     <tag>master</tag>
   </scm>
-
   <developers>
     <developer>
       <id>jcaddel</id>
