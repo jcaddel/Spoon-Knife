@@ -21,7 +21,7 @@
   <parent>
     <groupId>org.kuali.pom</groupId>
     <artifactId>kuali-common</artifactId>
-    <version>4.2.0</version>
+    <version>4.2.1-SNAPSHOT</version>
   </parent>
   <groupId>org.kuali.common</groupId>
   <artifactId>spoon-knife</artifactId>
@@ -50,39 +50,4 @@
     <module>sk-module1</module>
     <module>module2</module>
   </modules>
-  <properties>
-    <kuali-util.version>4.4.13-SNAPSHOT</kuali-util.version>
-    <kuali-core.version>1.0.3-SNAPSHOT</kuali-core.version>
-    <kuali-maven.version>1.1.6-SNAPSHOT</kuali-maven.version>
-  </properties>
-  <profiles>
-    <profile>
-      <id>updatescmrepo</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.kuali.maven.plugins</groupId>
-            <artifactId>spring-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>update-scm</id>
-                <phase>process-resources</phase>
-                <goals>
-                  <goal>load</goal>
-                </goals>
-                <configuration>
-                  <propertySourcesConfig>org.kuali.common.util.spring.ProjectPropertySourceConfig</propertySourcesConfig>
-                  <annotatedClass>org.kuali.common.maven.spring.UpdatePomScmConfig</annotatedClass>
-                  <injectMavenProject>true</injectMavenProject>
-                  <injectMavenSettings>true</injectMavenSettings>
-                  <forceMojoExecution>true</forceMojoExecution>
-                  <skip>${maven.pom.scm.update.skip}</skip>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
 </project>
