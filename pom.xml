@@ -35,7 +35,7 @@
     <developerConnection>scm:git:git@github.com:jcaddel/Spoon-Knife.git</developerConnection>
     <connection>scm:git:git@github.com:jcaddel/Spoon-Knife.git</connection>
     <url>https://github.com/jcaddel/Spoon-Knife/tree/${project.scm.tag}</url>
-    <tag>master</tag>
+    <tag>spoon-knife-2.1</tag>
   </scm>
   <developers>
     <developer>
